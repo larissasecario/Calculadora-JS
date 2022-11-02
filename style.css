@@ -1,0 +1,119 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    overflow: hidden;
+    background: #282b3ce8;
+    min-height: 970px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   }
+
+.fundo{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index:-0;
+  background: #E3E4DF;
+  height: 630px;
+  width: 1400px;
+
+}
+
+.calculadora{
+  width: 474px;
+  background-color: #26293A;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  position: absolute;
+
+
+}
+
+
+.display {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  margin-right: 50px;
+  margin-left: 27px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.display input{
+  border: none;
+  font-size: 32px;
+  background-color:rgba(221, 222, 226, 0.91);
+  text-align: right;
+  padding: 15px;
+
+} 
+
+#display-operacao{
+  color: gray;
+  height: 25px;
+  font-size: 15px;
+  padding-top: 20px;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+#display-entrada{
+  height: 70px;
+  color: black;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.div-botoes{
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px;
+  justify-content: space-around;
+
+}
+
+.botoes{
+  width: 78px;
+  height: 78px;   
+  margin: 7px;
+  border: none;
+  border-radius: 90px;
+  padding: 5px;
+  font-size: 40px;
+  cursor: pointer;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #E3E4DF;
+
+}
+
+#deletar{
+  font-size: 33px;
+  background-color: #01FE87;
+}
+
+#decimal{
+  background-color: #E3E4DF;
+}
+
+#igualdade{
+  width: 180px;  
+  background-color: #F5B239;
+
+}
+
+.operacao, .especiais{
+  background-color: #01FE87;
+}
+
+
+
+
+.botoes:hover, #igualdade:hover{
+  background: #5dbd91;
+} 
+  

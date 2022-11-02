@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Script.js" defer></script>
+</head>
+<body>
+    <div class="fundo"></div>
+    <div class="calculadora">
+
+        <div class="display" >
+            <input id='display-operacao' placeholder="" type="text" disabled/>
+            <input id='display-entrada' placeholder="0" type="text" disabled/>
+        </div>
+
+        <div class="div-botoes">
+            
+                <button class="botoes especiais"  value="c"   >C</button>
+                <button class="botoes especiais"   value="del" id="deletar" >DEL</button>
+                <button class="botoes especiais"  value="+-"   >±</button>
+                <button class="botoes operacao"  value="/"   >÷</button> 
+
+                <button class="botoes numeros"  value="7"   >7</button>
+                <button class="botoes numeros"  value="8"   >8</button>
+                <button class="botoes numeros"  value="9"   >9</button>
+                <button class="botoes operacao" value="*"    >X</button>
+
+                <button class="botoes numeros"  value="4"   >4</button> 
+                <button class="botoes numeros"  value="5"   >5</button>
+                <button class="botoes numeros"  value="6"   >6</button>
+                <button class="botoes operacao" value="-"   >-</button>
+             
+                <button class="botoes numeros"  value="1"   >1</button> 
+                <button class="botoes numeros"  value="2"   >2</button>
+                <button class="botoes numeros"  value="3"   >3</button>
+                <button class="botoes operacao" value="+"   >+</button>
+
+                <button class="botoes numeros" value="0" >0</button> 
+                <button class="botoes especiais"  value="." id="decimal" >.</button>
+                <button class="botoes especiais" value="=" id="igualdade">=</button> 
+                
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
